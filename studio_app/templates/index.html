@@ -7,16 +7,24 @@ Home
 
 {% block body %}
 
-{% include 'navbar.html' %}
+
 
 <section id="section1" >
 
     <div class="container">
+        {% include 'navbar.html' %}
         <div class="row">
-            <div class="col-md-4 mt-5 ms-5">
-                <h5>Welcome</h5>
-                <h5 class="ms-3">To </h5>
-                <h2>MagicFrame Studios</h2>
+            <div class="col-md-4 mt-5">
+                <h4 class="mt-lg-2 mb-2" style="font-family: 'Nosifer', cursive;"><strong>C R E A T E </strong></h4>
+                <h4 class="mt-3 mb-2 text-center " style="font-family: 'Nosifer', cursive;"><strong>E X P L O R E</strong></h4>
+                <h4 class="mt-3 mb-2" style="font-family: 'Nosifer', cursive;text-align: end;"><strong>I N S P I R E . . .</strong></h4>
+                <p class=" mt-lg-4 mt-4" style="font-family: 'Cairo Play', sans-serif; font-size: 19px;text-align: justify;"><strong>MagicFrame Studios</strong> create a beautiful collection of photographs that perfectly capture the <strong> magic</strong>, 
+                    <strong>emotion</strong> and <strong>spirit</strong> of your day. <br> Your wedding day should be one of the most memorable days of your life. 
+                    <strong>MagicFrame Studios</strong> want to make sure that this special day is one you'll remember for years to come.    
+                </p>
+                <div class="row">
+                    <center><a href=""><button class="button1 mb-1 text-center"><span>Book Now</span></button></a></center>
+                </div>
             </div>
             <div class="col-md-4"></div>
             <div class="col-md-4"></div>
@@ -29,26 +37,257 @@ Home
     </div>
    
 </section>
-<section>
+
+<section id="section2">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row ">
+            <div class="col-md-2 mt-lg-5"></div>
+            <div class="col-md-8 mt-lg-5 mt-4">
+                <h3 class="text-center" style="font-family: 'Roboto Slab', serif;">Over years We are providing excellent services
+                    to make your events memorable
+                </h3>
+            </div>
+            <div class="col-md-2 mt-lg-5"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <ul class="arrow-list mb-5">
+                    <li><h5>Qualified Photographers & Videographers</h5></li>
+                    <li><h5>Distinctive Style</h5></li>
+                    <li><h5>Equipment and Technology</h5></li>
+                    <li><h5>Passion and Dedication</h5></li>
+                    
+                </ul>
+            </div>
+            <div class="col-md-4">
                 
+                <ul class="arrow-list mb-5">
+                    <li><h5>All photographers are experts in their categories</h5></li>
+                    <li><h5>Marketing and Branding</h5></li>
+                    <li><h5>Continual Learning</h5></li>
+                    <li><h5>Packages and Pricing</h5></li>
+                    
+                </ul>
+    
+            </div>
+            <div class="col-md-4">
+               
+                <ul class="arrow-list mb-5">
+                    <li><h5> Fast, on-time and Professional Service</h5></li>
+                    <li><h5>Professional Editing</h5></li>
+                    <li><h5>Team Coordination</h5></li>
+                    <li><h5>Backup Equipment</h5></li>
+                    
+                </ul>
             </div>
         </div>
+
+        <div class="row">
+            
+            <div class="col-md-12 mt-1 mb-5">
+                <!-- <h6 class="text-center lh-base">Capturing moments is easy but aptly capturing the essence of the moment and 
+                    the plethora of emotions it possesses is what sets <br> <strong>MagicFrame studio 
+                    Photography & Films</strong> apart
+                </h6> -->
+                <p class="lh-base mt-2 " style="text-align: justify;">We are seekers of the true essence of marvelous wedding celebrations. 
+                    While we believe that bringing the essence of every emotional moment and whimsically 
+                    romantic moment that you will treasure forever is our top priority. 
+                    Our goal is to capture your most pleasant and heartfelt moments throughout your wedding. 
+                    We are unafraid to go the additional mile when it comes to customer fulfillment, providing 
+                    customized and distinctive services that preserve each of your treasured memories forever. 
+                    MagicFrame Studio, Wedding Photography Kerala with the finest Wedding Photographers, 
+                    you can rely on us to provide highquality wedding photography; candid wedding photography;
+                    we like capturing beautiful details that will last a lifetime.
+                    Reach out to us with your ideas for your big day, and we’ll work with you to create a 
+                    lasting memory of the day of your dreams. We are a dedicated group of best photographers 
+                    in Kerala and candid cinematographers that like capturing and preserving the most beautiful sentiments.
+                </p>
+
+            </div>
+            
+        </div>
     </div>
+</section>
+
+<section id="section3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mt-5">
+                <h3 class="text-center">Wedding Highlights in Kerala</h3>
+                <p class="mt-5 " style="text-align: justify;">Our wedding films are a visual delight. 
+                    It transports you back to the time of the celebrations and brings back all those emotions vividly. 
+                    These are high production movie like films, beautifully summarizing all your rituals and festivities.
+                    Whether it be the exotic pre wedding couple shoot, or an event from wedding days, 
+                    our documentary stylewe candid Videography will certainly leave an impression.
+                </p>
+                
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-6 mt-lg-5 mt-2 mb-3">
+                <img src="{% static 'images/wed1.webp' %}" alt="" class="img-fluid rounded-5 img1 border-5">
+            </div>
+           
+        </div>
+        <div class="row">
+            <a href=""><button class="button2 mb-4 mt-3 mb-lg-5"><span>Book Now</span></button></a>
+        </div>
+    </div>
+
+</section>
+
+<!-- <section id="section4">
+    <div class="container">
+        <div class="row">
+            <h1>new</h1>
+        </div>
+    </div>
+</section> -->
+
+<section id="footer">
+    {% include 'footer.html' %}
+  
 </section>
 
 
 
 <style>
+    body{
+        font-family: 'Roboto Slab', serif;
+    }
     section#section1{
         background-image: url("{% static 'images/bg2.webp' %}");
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
-        font-family: 'Poppins', sans-serif;
-
+        
     }
+    section#section2{
+        background-color: #ffffff;
+        
+        
+    }
+    section#section3{
+        width: 100%;
+        background: url("{% static 'images/sec4bg.jpg' %}");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #ffffff;
+    } 
+    section#footer{
+        background-color: #000000;
+    }
+
 </style>
+<style>
+    .button1 {
+      border-radius: 6px;
+      background-color: rgb(0, 0, 0);
+      border: none;
+      color: #ffffff;
+      text-align: center;
+      font-size: 16px;
+      padding: 5px;
+      width: 150px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+    
+    .button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button1:hover span {
+      padding-right: 20px;
+    }
+    
+    .button1:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    
+    
+</style>
+<style>
+    .button2 {
+      border-radius: 6px;
+      background-color: rgb(255, 255, 255);
+      border: none;
+      color: #000000;
+      text-align: center;
+      font-size: 16px;
+      padding: 5px;
+      width: 150px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+    
+    .button2 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button2 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button2:hover span {
+      padding-right: 20px;
+    }
+    
+    .button2:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    
+</style>
+
+
+<style>
+    ul.arrow-list {
+      list-style: none;
+      padding-left: 20px; /* Adjust as needed */
+    }
+  
+    ul.arrow-list li {
+      background-image: url("{% static 'images/arrow.png' %}"); /* Replace with your image path */
+      background-repeat: no-repeat;
+      padding-left: 20px; /* Adjust as needed */
+      margin-bottom: 5px; /* Adjust as needed */
+    }
+    .img1 {
+        background-color: rgb(20, 20, 20);
+        color: white;
+        transition: box-shadow 0.3s ease-in-out;
+        
+    }
+
+    .img1:hover {
+        transform: scale3d(1.02,1.02,1.02);
+        box-shadow: 0px 0px 10px rgb(0, 255, 213);
+    
+    }
+  </style>
+
 {% endblock %}
