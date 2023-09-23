@@ -1,0 +1,150 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+MagicFrame-Gallery
+{% endblock %}
+
+
+{% block body %}
+
+<section>
+    <div class="container">
+        {% include 'navbar.html' %}
+        
+        <div class="row mt-5">
+            <div class="col-lg-12">
+                <h3 class="text-center" style="color:rgb(255, 179, 0);font-family: 'Acme', sans-serif;">Special moments are even Special in these clicks..!</h3>
+                <p class="text-center"><b>Let's together make your special moments more magical and colorful...</b></p>
+            </div>
+        </div>
+        <div class="row row1 mt-5 mb-5">
+
+            <div class="column col-lg-3">
+                <img src="{% static 'images/card8.jpg' %}">
+                <img src="{% static 'images/card9.jpg' %}">
+                <img src="{% static 'images/card10.jpg' %}">
+                
+            </div>
+            <div class="column col-lg-3">
+                
+                <img src="{% static 'images/card14.jpg' %}">
+                <img src="{% static 'images/card12.jpg' %}">
+                <img src="{% static 'images/card13.jpg' %}">
+            </div>
+            <div class="column col-lg-3">
+                
+                <img src="{% static 'images/card11.jpg' %}">
+                <img src="{% static 'images/card15.jpg' %}">
+                <img src="{% static 'images/card7.jpg' %}">
+                
+            </div>
+            <div class="column col-lg-3">
+                
+                <img src="{% static 'images/car4.jpg' %}">
+                <img src="{% static 'images/card6.jpg' %}">
+                <img src="{% static 'images/card2.jpg' %}">
+                <img src="{% static 'images/car5.jpg' %}">
+                <img src="{% static 'images/car6.jpg' %}">
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    {% include 'footer.html' %}
+  
+</section>
+
+
+
+
+
+<style>
+    .row1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  .column img:hover{
+    box-shadow:0px 0px 10px rgb(0, 0, 0);
+    transform: scale(1.05);
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  </style>
+
+<style>
+
+    .card1{
+      transition: box-shadow 0.3s ease-in-out;
+    }
+      
+    .card1:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+          
+    }
+      
+    button.sp{
+      transition: box-shadow 0.3s ease-in-out;
+    }
+      
+      
+    button.sp:hover{
+      transform: scale(1.05);
+          
+          
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+      
+    }
+    div.box img{
+      opacity: .7;
+    }
+      
+    div.box img:hover{
+      opacity: 1;
+      box-shadow:0px 0px 10px rgba(0, 0, 0, 0.3); 
+    }
+    section#footer{
+        background-color: #000000;
+    }
+          
+</style>
+
+  
+
+
+
+
+{% endblock %}
