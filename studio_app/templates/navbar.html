@@ -54,7 +54,7 @@
     </button>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MagicFrame</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
@@ -68,16 +68,11 @@
           <li class="nav-item">
             <a class="nav-link" href="{% url 'contact' %}">Contact</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="{% url 'services' %}">Photography</a></li>
-              <li><a class="dropdown-item" href="#">Video Editing</a></li>
-              <li><a class="dropdown-item" href="#">Album Designing</a></li>
-              
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'services' %}">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'gallery' %}">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{% url 'joinus' %}">Join Us</a>
@@ -85,14 +80,12 @@
           <li class="nav-item">
             <a class="nav-link" href="{% url 'signin' %}">Signin</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class=" btn btn-outline-dark btn-sm ms-4" href="{% url 'signin' %}">Book Now</a>
-          </li> -->
+          
           
         </ul>
         <form class="d-flex" role="search">
           
-          <a href="{% url 'booking' %}"> <button class="btn btn-outline-dark btn-sm rounded" type="submit">Book Now</button></a>
+          <a href="{% url 'booking' %}"> <button class="btn btn-outline-dark btn-sm rounded mt-2" type="button">Book Now</button></a>
         </form>
       </div>
     </div>

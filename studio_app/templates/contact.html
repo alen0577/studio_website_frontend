@@ -13,7 +13,176 @@ MagicFrame-Contact Us
     <div class="container">
         {% include 'navbar.html' %}
     </div>
+    <div class="row">
+        <div class="col-md-12 mt-5 mb-5">
+            <h3 class="text-center" style="color: rgb(0, 0, 0);"><strong>Contact Us</strong></h3>
+            <p class="text-center mt-3 mb-5">MagicFrame Photography & Videography. We love what we do and we do it with love...</p>
+        </div>
+    </div>
+</section>
+
+<section id="section2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-lg-5 mt-3">
+                <p style="text-align: justify;">Making a connection with you is our top priority, as this ensures you are comfortable on your special day .
+                    Capturing ,editing and creating wedding stories is what we love to do. Our cinematography & videography offers the 
+                    perfect balance of tradition, personality, & innovation to capture a beautiful story of your wedding day. 
+                    This is more than creating emotional & cinematic films... 
+                    This is about passion. We would love to visit with you by phone or in person and talk about your wedding, 
+                    event, or video project. You can also reach out to us through the Contact Page. Not sure what package 
+                    is best for your day? No problem - Get in touch with Wedding Photography Kerala.
+                </p>
+            </div>
+
+            <div class="row mt-5 mb-5">
+               
+                <div class="col-lg-12 mb-lg-5 mx-2">
+    
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                        <div class="col">
+                          <div class="card card1 h-100  p-3 mb-5  rounded">
+                            <div class="card-body">
+                              <h1 style="color:rgb(0, 0, 0)"><i class="fa fa-location-pin-lock"></i></h1>
+                              <h5 class="card-title" style="color: rgb(0, 0, 0);">Head Office</h5>
+                              <p class="text-dark-emphasis">1st Floor - Thapasya Building <br>
+                                Kakkanad, Cochin
+                            </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                            <div class="card card1 h-100  p-3 mb-5  rounded">
+                              <div class="card-body">
+                                <h1 style="color:rgb(0, 0, 0)"><i class="fa fa-location-dot"></i></h1>
+                                <h5 class="card-title" style="color: rgb(0, 0, 0)">Branch Office</h5>
+                                <p class="text-dark-emphasis">1st Floor - Thapasya Building <br>
+                                    Kakkanad, Cochin
+                                </p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card card1 h-100 p-3 mb-5  rounded">
+                              <div class="card-body">
+                                <h1 style="color:rgb(0, 0, 0)"><i class="fa fa-phone"></i></h1>
+                                <h5 class="card-title" style="color: rgb(0, 0, 0);">Let's Talk</h5>
+                                <p class="text-dark-emphasis">Mob: +91 974 663 2202 </p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card card1 h-100 p-3 mb-5  rounded">
+                              <div class="card-body">
+                                <h1 style="color:rgb(0, 0, 0)"><i class="fa fa-mail-bulk"></i></h1>
+                                <h5 class="card-title" style="color: rgb(0, 0, 0)">Email Us</h5>
+                                <p class="text-dark-emphasis">Email: Info@Altostechnologies.In </p>
+                              </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+          
+                    </div>
+                    
+                </div>
+                
+            </div>
+    
+        </div>
+    </div>
+</section>
+
+<section id="section3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 mt-5 mb-5">
+                <h6 class="text-center mt-lg-5">FILL OUT THE FORM AND WE'LL BE IN TOUCH SOON!</h6>
+                <h3 class="mt-2"><strong>Please mention your requirements</strong></h3>
+               <form action="">
+                    <div class="row mt-5">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Name" aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="phone" aria-label="phone">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Email" aria-label="First name">
+                        </div>
+                        <div class="col">
+                           <select name="" id="" class="form-select">
+                            <option value="" hidden>Select your Event</option>
+                            <option value="">Wedding Photography</option>
+                            <option value="">Candid Photography</option>
+                            <option value="">Destination Wedding</option>
+                            <option value="">Fashion  Photography</option>
+                           </select>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <textarea name="" id="" class="form-control" placeholder="Describe your Project"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <input type="button" class="btn btn-outline-light btn-sm w-25" value="Submit">
+                        </div>
+                    </div>
+               </form>
+
+
+            </div>
+        </div>
+    </div>
 </section>
 
 
+<section id="footer">
+    {% include 'footer.html' %}
+  
+</section>
+
+
+<style>
+    section#section1{
+        
+        background-color: rgb(240, 240, 240);
+        
+    }
+    section#section3{
+        width: 100%;
+        background: url("{% static 'images/cntbg1.webp' %}");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #ffffff;
+        
+        
+        
+    } 
+    section#footer{
+        background-color: #000000;
+    }
+</style>
+<style>
+    .card1 {
+        background-color: rgb(245, 245, 245);
+        color: rgb(0, 0, 0);
+        transition: box-shadow 0.3s ease-in-out;
+        
+    }
+
+    .card1:hover {
+        transform: scale3d(1.02,1.02,1.02);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    
+    }
+</style>
 {% endblock %}
