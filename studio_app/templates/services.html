@@ -12,19 +12,132 @@ MagicFrame-Services
 <section id="section1">
     <div class="container">
         {% include 'navbar.html' %}
+        <div class="row">
+            <div class="col-md-12 mt-5 mb-5">
+                <h3 class="text-center" style="color: rgb(0, 0, 0);"><strong>Our Services</strong></h3>
+                <p class="text-center mt-3 mb-5">We always try to fulfull all your dreams...!</p>
+            </div>
+        </div>
     </div>
 </section>
 
-<!-- <section id="footer">
+<section id="section2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-5">
+                <p class="lh-lg" style="text-align: justify;"><strong>MagicFrame studio</strong> offers a diverse array of services designed to capture and preserve the magic of a couple's special day. 
+                    These services encompass tailored photography packages, including engagement sessions and options for multiple photographers. 
+                    We also provide videography services and the opportunity to rent photo booths for added fun. 
+                    They excel in album design and printing, ensuring couples have beautifully curated collections of their cherished memories. 
+                    Online galleries make it easy for couples to share their photos, while customization ensures that each couple's unique vision is brought to life. For those planning destination weddings, specialized services are often available. 
+                    Studios prioritize professional editing and retouching, and consultations help align expectations. 
+                    They also come prepared with backup equipment to ensure seamless coverage, making the studio an essential partner in preserving the memories of a lifetime.
+
+                </p>
+            </div>
+        </div>
+        <div class="row mt-5 mb-5">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                    <div class="col">
+                        <div class="card card1 h-100  p-3 mb-5  rounded">
+                          <div class="card-body">
+                            <h1 style="color:rgb(0, 0, 0)"><i class="fa fa-camera"></i></h1>
+                            <h5 class="card-title" style="color: rgb(0, 0, 0);">Photography Packages</h5>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card1 h-100  p-3 mb-5  rounded">
+                          <div class="card-body">
+                            <h1 style="color:rgb(0, 0, 0)"><i class="fa fa-video-camera"></i></h1>
+                            <h5 class="card-title" style="color: rgb(0, 0, 0);">Videography Services</h5>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card1 h-100  p-3 mb-5  rounded">
+                          <div class="card-body">
+                            <h1 style="color:rgb(0, 0, 0)"><i class="fa fa-pen-nib"></i></h1>
+                            <h5 class="card-title" style="color: rgb(0, 0, 0);">Album Design and Printing</h5>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card1 h-100  p-3 mb-5  rounded">
+                          <div class="card-body">
+                            <h1 style="color:rgb(0, 0, 0)"><i class="fa fa-calendar"></i></h1>
+                            <h5 class="card-title" style="color: rgb(0, 0, 0);">Consultations and Pre-Wedding Planning</h5>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card1 h-100  p-3 mb-5  rounded">
+                          <div class="card-body">
+                            <h1 style="color:rgb(0, 0, 0)"><i class="fa fa-gear"></i></h1>
+                            <h5 class="card-title" style="color: rgb(0, 0, 0);">Customization</h5>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card1 h-100  p-3 mb-5  rounded">
+                          <div class="card-body">
+                            <h1 style="color:rgb(0, 0, 0)"><i class="fa fa-photo-film"></i></h1>
+                            <h5 class="card-title" style="color: rgb(0, 0, 0);">Photo Booths</h5>
+                          </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 mb-5">
+                <center><a href="{% url 'booking' %}"><input type="button" class="btn btn-outline-dark btn-sm w-50" value="Request Services"></a></center>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<section id="footer">
     {% include 'footer.html' %}
   
-</section> -->
+</section>
 
 <style>
     section#section1{
         
         background-color: rgb(240, 240, 240);
         
+    }
+    section#footer{
+        background-color: #000000;
+    }
+</style>
+
+<style>
+    .card1 {
+        background-color: rgb(245, 245, 245);
+        color: rgb(0, 0, 0);
+        transition: box-shadow 0.3s ease-in-out;
+        
+    }
+
+    .card1:hover {
+        transform: scale3d(1.02,1.02,1.02);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    
     }
 </style>
 {% endblock %}
